@@ -7,6 +7,17 @@
 body {
     font-size: 16px;
     color: white;
-    background-color: #771b3d;
+    background-color: #72b657;
     font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f5faef;
+}
+
+#logo-img {
+    background: url('../Images/Logo.png') no-repeat;
+    width: 125px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
 }
