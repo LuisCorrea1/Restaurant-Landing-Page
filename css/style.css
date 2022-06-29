@@ -22,12 +22,12 @@ body {
 }
 
 .navbar-brand {
-    padding: 15px;
+    padding: 10px;
 }
 
-.navbar-brand h1 {
+h1 {
     color: #557c3e;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -47,4 +47,16 @@ body {
 }
 .navbar-brand p span{
     vertical-align: middle;
+}
+
+#nav-list a{
+    text-align: center;
+    padding: 10px;
+}
+#nav-list a:hover {
+    background-color: #557c3e;
+    color: white;
+}
+.nav-link i{
+    font-size: 2em;
 }
