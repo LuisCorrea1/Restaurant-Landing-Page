@@ -10,7 +10,7 @@ body {
     background-color: #72b657;
     font-family: 'Oxygen', sans-serif;
 }
-
+/* ---------------------------START NAVBAR ------------------------- */
 #header-nav {
     background-color: #f5faef;
 }
@@ -59,4 +59,13 @@ h1 {
 }
 .nav-link i{
     font-size: 2em;
+}
+/* ------------------------ END NAVBAR -------------------------------- */
+
+/*------------------------- MEDIA  Queries -----------------------------*/
+/* MEDIA FOR NAV BUTTONS (>991px) */
+@media (min-width: 992px) {
+    #nav-list a {
+        margin-right: 20px;
+    }
 }
