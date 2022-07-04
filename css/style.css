@@ -70,10 +70,12 @@ h1 {
 .container .jumbotron {
     box-shadow: 0 0 50px #345204;
     border: 2px solid #ffffff98;
-  }
+}
+
 .row {
     padding-top: 25px;
 }
+
 #menu-tile, #specials-tile, #map-tile {
     height: 250px;
     width: 100%;
@@ -85,6 +87,27 @@ h1 {
 
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+    background: url('../Images/Nav-tiles/menu-tile.jpeg') no-repeat center;
+}
+
+#specials-tile {
+    background: url('../Images/Nav-tiles/specials-tile.jpg') no-repeat center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
 }
 
 /*------- MEDIA  Queries --------------- */
@@ -111,4 +134,11 @@ h1 {
 /* ------ EXTRA SMALL DEVICES ONLY ----- */
 @media (max-width: 767px){
 
+}
+
+@media (max-width: 575px) {
+    /* #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    } */
 }
