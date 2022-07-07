@@ -113,7 +113,7 @@ h1 {
 /* ------------ MENU CATEGORIES PAGE ------------ */
 .category-tile {
     position: relative;
-    border: 2px solid #fff;
+    border: 2px solid rgba(114, 114, 114, 0.315);
     overflow: hidden;
     width: 200px;
     height: 200px;
@@ -132,7 +132,7 @@ h1 {
     opacity: .8;
 }
 .category-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
+    box-shadow: 0 3px 6px 3px #fffdfd;
 }
 #menu-categories-tile + div {
     margin-bottom: 50px;
